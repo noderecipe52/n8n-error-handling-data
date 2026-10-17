@@ -1,0 +1,186 @@
+{
+  "checked_at_utc": "2026-10-17T18:20:48.596822+00:00",
+  "pinned_commit": "94007c1445d9258a7da116646b79473e7c7c3282",
+  "archive_url": "https://codeload.github.com/Zie619/n8n-workflows/zip/94007c1445d9258a7da116646b79473e7c7c3282",
+  "archive_sha256": "3e22242c5c767400b4bdc178e770834aa3fbc0fae0e1db2714abce5c1b20bab0",
+  "published_csv_sha256": "1764b67321f057bc342446f3d600224112fbffe791dfe0920ce923ec57bc7743",
+  "raw_byte_unique_files": 2061,
+  "normalized_unique_files": 2030,
+  "case_insensitive_path_collisions": [],
+  "checks": [
+    {
+      "metric": "append_or_update_or_upsert_nodes",
+      "computed": 71,
+      "published": 71.0,
+      "matches": true
+    },
+    {
+      "metric": "append_or_update_or_upsert_workflows",
+      "computed": 53,
+      "published": 53.0,
+      "matches": true
+    },
+    {
+      "metric": "contains_error_trigger",
+      "computed": 18,
+      "published": 18.0,
+      "matches": true
+    },
+    {
+      "metric": "continue_on_fail_true_legacy",
+      "computed": 43,
+      "published": 43.0,
+      "matches": true
+    },
+    {
+      "metric": "corpus_duplicate_groups",
+      "computed": 23,
+      "published": 23.0,
+      "matches": true
+    },
+    {
+      "metric": "corpus_files",
+      "computed": 2061,
+      "published": 2061.0,
+      "matches": true
+    },
+    {
+      "metric": "corpus_redundant_copies",
+      "computed": 31,
+      "published": 31.0,
+      "matches": true
+    },
+    {
+      "metric": "corpus_unique_workflows",
+      "computed": 2030,
+      "published": 2030.0,
+      "matches": true
+    },
+    {
+      "metric": "google_sheets_nodes",
+      "computed": 595,
+      "published": 595.0,
+      "matches": true
+    },
+    {
+      "metric": "google_sheets_workflows",
+      "computed": 279,
+      "published": 279.0,
+      "matches": true
+    },
+    {
+      "metric": "no_error_handling_field_of_any_kind",
+      "computed": 1721,
+      "published": 1721.0,
+      "matches": true
+    },
+    {
+      "metric": "no_retry_no_error_output_no_error_trigger",
+      "computed": 1810,
+      "published": 1810.0,
+      "matches": true
+    },
+    {
+      "metric": "nodes_per_workflow_max",
+      "computed": 246,
+      "published": 246.0,
+      "matches": true
+    },
+    {
+      "metric": "nodes_per_workflow_mean",
+      "computed": 15.1,
+      "published": 15.1,
+      "matches": true
+    },
+    {
+      "metric": "nodes_per_workflow_median",
+      "computed": 12.0,
+      "published": 12.0,
+      "matches": true
+    },
+    {
+      "metric": "on_error_continue_error_output",
+      "computed": 121,
+      "published": 121.0,
+      "matches": true
+    },
+    {
+      "metric": "on_error_continue_regular_output",
+      "computed": 100,
+      "published": 100.0,
+      "matches": true
+    },
+    {
+      "metric": "retry_on_fail_true",
+      "computed": 108,
+      "published": 108.0,
+      "matches": true
+    },
+    {
+      "metric": "suppression_only_errors_silently_swallowed",
+      "computed": 89,
+      "published": 89.0,
+      "matches": true
+    },
+    {
+      "metric": "upsert_wf_automatic_trigger",
+      "computed": 40,
+      "published": 40.0,
+      "matches": true
+    },
+    {
+      "metric": "upsert_wf_contains_error_trigger",
+      "computed": 0,
+      "published": 0.0,
+      "matches": true
+    },
+    {
+      "metric": "upsert_wf_continue_error_output_anywhere",
+      "computed": 6,
+      "published": 6.0,
+      "matches": true
+    },
+    {
+      "metric": "upsert_wf_error_suppression_present",
+      "computed": 8,
+      "published": 8.0,
+      "matches": true
+    },
+    {
+      "metric": "upsert_wf_no_retry_no_error_branch_no_error_trigger",
+      "computed": 43,
+      "published": 43.0,
+      "matches": true
+    },
+    {
+      "metric": "upsert_wf_non_manual_trigger_no_retry_no_error_output_no_error_trigger",
+      "computed": 31,
+      "published": 31.0,
+      "matches": true
+    },
+    {
+      "metric": "upsert_wf_retry_on_fail_anywhere",
+      "computed": 6,
+      "published": 6.0,
+      "matches": true
+    },
+    {
+      "metric": "upsert_wf_retry_on_fail_on_the_upsert_node",
+      "computed": 3,
+      "published": 3.0,
+      "matches": true
+    }
+  ],
+  "mismatches": [],
+  "automatic_upsert_subgroup_definition_check": {
+    "automatic_and_no_any_of_five_signals": 28,
+    "automatic_and_no_retry_error_output_error_trigger": 31
+  },
+  "limits": [
+    "No workflow executed",
+    "No historical provenance comparison rerun",
+    "Normalization recursively removes id keys, including nested parameters",
+    "No runtime safety, error wiring, or production representativeness claim",
+    "Only the metrics explicitly listed in checks were reproduced"
+  ]
+}

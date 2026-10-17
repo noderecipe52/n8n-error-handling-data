@@ -1,0 +1,360 @@
+{
+ "repo_head": "94007c1445d9258a7da116646b79473e7c7c3282",
+ "commits": {
+  "first_upload": "84c802cb",
+  "pre_rewrite_base": "f8639776",
+  "rewrites": [
+   "f293c236",
+   "74bdcdca",
+   "3c0a92c4",
+   "5ffee225"
+  ],
+  "pinned": "94007c1445d9258a7da116646b79473e7c7c3282"
+ },
+ "files": {
+  "first_upload": 1980,
+  "pre_rewrite_base": 2057,
+  "pinned": 2061,
+  "base_files_byte_identical_to_first_upload": 1980,
+  "in_base_and_pinned": 2057,
+  "only_in_pinned (added after the rewrites)": [
+   "workflows/Templates/9001_Scalable_Webhook_Orchestrator_Webhook.json",
+   "workflows/Templates/9002_Rapid_ETL_HTTP_Transform_Deliver_Manual.json",
+   "workflows/Templates/9003_FanOut_Broadcast_and_Merge_Webhook.json",
+   "workflows/Templates/9004_AI_Summarizer_Template_Webhook.json"
+  ],
+  "only_in_base": []
+ },
+ "base_vs_pinned": {
+  "tally": {
+   "files_compared": 2057,
+   "duplicate_node_names": 5,
+   "nodes_in_both": 29363,
+   "nodes_added": 1384,
+   "nodes_removed": 161,
+   "added_nodes_carrying_a_measured_field": 4,
+   "removed_nodes_carrying_a_measured_field": 3,
+   "files_settings_changed": 2057,
+   "files_meta_changed": 2057,
+   "files_connections_changed": 2005
+  },
+  "measured_field_differences": {
+   "sheets_match_column": 2
+  },
+  "type_changes_on_matched_nodes": {
+   "@n8n/n8n-nodes-langchain.lmChatOpenAi -> n8n-nodes-base.noOp": 633,
+   "@n8n/n8n-nodes-langchain.outputParserStructured -> n8n-nodes-base.noOp": 177,
+   "@n8n/n8n-nodes-langchain.chainLlm -> n8n-nodes-base.noOp": 257,
+   "@n8n/n8n-nodes-langchain.openAi -> n8n-nodes-base.noOp": 295,
+   "@n8n/n8n-nodes-langchain.toolWorkflow -> n8n-nodes-base.noOp": 180,
+   "@n8n/n8n-nodes-langchain.agent -> n8n-nodes-base.noOp": 463,
+   "@n8n/n8n-nodes-langchain.toolCode -> n8n-nodes-base.noOp": 17,
+   "@n8n/n8n-nodes-langchain.chatTrigger -> n8n-nodes-base.noOp": 181,
+   "@n8n/n8n-nodes-langchain.memoryBufferWindow -> n8n-nodes-base.noOp": 218,
+   "@n8n/n8n-nodes-langchain.lmChatAzureOpenAi -> n8n-nodes-base.noOp": 12,
+   "@n8n/n8n-nodes-langchain.toolCalculator -> n8n-nodes-base.noOp": 32,
+   "@n8n/n8n-nodes-langchain.memoryManager -> n8n-nodes-base.noOp": 20,
+   "@n8n/n8n-nodes-langchain.openAiAssistant -> n8n-nodes-base.noOp": 2,
+   "@n8n/n8n-nodes-langchain.toolWikipedia -> n8n-nodes-base.noOp": 31,
+   "@n8n/n8n-nodes-langchain.lmChatGoogleGemini -> n8n-nodes-base.noOp": 195,
+   "@n8n/n8n-nodes-langchain.outputParserAutofixing -> n8n-nodes-base.noOp": 29,
+   "@n8n/n8n-nodes-langchain.lmChatAnthropic -> n8n-nodes-base.noOp": 35,
+   "@n8n/n8n-nodes-langchain.toolHttpRequest -> n8n-nodes-base.noOp": 142,
+   "@n8n/n8n-nodes-langchain.toolSerpApi -> n8n-nodes-base.noOp": 12,
+   "@n8n/n8n-nodes-langchain.vectorStoreSupabase -> n8n-nodes-base.noOp": 30,
+   "@n8n/n8n-nodes-langchain.outputParserItemList -> n8n-nodes-base.noOp": 7,
+   "@n8n/n8n-nodes-langchain.embeddingsGoogleGemini -> n8n-nodes-base.noOp": 30,
+   "@n8n/n8n-nodes-langchain.vectorStoreInMemory -> n8n-nodes-base.noOp": 14,
+   "@n8n/n8n-nodes-langchain.toolVectorStore -> n8n-nodes-base.noOp": 29,
+   "@n8n/n8n-nodes-langchain.vectorStorePinecone -> n8n-nodes-base.noOp": 38,
+   "other type change": 28,
+   "@n8n/n8n-nodes-langchain.embeddingsOpenAi -> n8n-nodes-base.noOp": 130,
+   "@n8n/n8n-nodes-langchain.memoryPostgresChat -> n8n-nodes-base.noOp": 20,
+   "@n8n/n8n-nodes-langchain.mcpClientTool -> n8n-nodes-base.noOp": 13,
+   "@n8n/n8n-nodes-langchain.memoryRedisChat -> n8n-nodes-base.noOp": 7,
+   "@n8n/n8n-nodes-langchain.textClassifier -> n8n-nodes-base.noOp": 43,
+   "@n8n/n8n-nodes-langchain.vectorStorePGVector -> n8n-nodes-base.noOp": 8,
+   "@n8n/n8n-nodes-langchain.informationExtractor -> n8n-nodes-base.noOp": 91,
+   "@n8n/n8n-nodes-langchain.documentDefaultDataLoader -> n8n-nodes-base.noOp": 101,
+   "@n8n/n8n-nodes-langchain.chainRetrievalQa -> n8n-nodes-base.noOp": 23,
+   "@n8n/n8n-nodes-langchain.sentimentAnalysis -> n8n-nodes-base.noOp": 8,
+   "@n8n/n8n-nodes-langchain.chainSummarization -> n8n-nodes-base.noOp": 54,
+   "@n8n/n8n-nodes-langchain.toolWolframAlpha -> n8n-nodes-base.noOp": 1,
+   "@n8n/n8n-nodes-langchain.textSplitterRecursiveCharacterTextSplitter -> n8n-nodes-base.noOp": 76,
+   "@n8n/n8n-nodes-langchain.retrieverVectorStore -> n8n-nodes-base.noOp": 20,
+   "@n8n/n8n-nodes-langchain.vectorStoreQdrant -> n8n-nodes-base.noOp": 82,
+   "@n8n/n8n-nodes-langchain.lmChatGroq -> n8n-nodes-base.noOp": 14,
+   "@n8n/n8n-nodes-langchain.toolThink -> n8n-nodes-base.noOp": 5,
+   "@n8n/n8n-nodes-langchain.documentJsonInputLoader -> n8n-nodes-base.noOp": 1,
+   "@n8n/n8n-nodes-langchain.lmChatOpenRouter -> n8n-nodes-base.noOp": 30,
+   "@n8n/n8n-nodes-langchain.lmChatDeepSeek -> n8n-nodes-base.noOp": 4,
+   "@n8n/n8n-nodes-langchain.embeddingsMistralCloud -> n8n-nodes-base.noOp": 13,
+   "@n8n/n8n-nodes-langchain.mcpTrigger -> n8n-nodes-base.noOp": 20,
+   "@n8n/n8n-nodes-langchain.textSplitterTokenSplitter -> n8n-nodes-base.noOp": 30,
+   "@n8n/n8n-nodes-langchain.lmChatMistralCloud -> n8n-nodes-base.noOp": 14,
+   "@n8n/n8n-nodes-langchain.embeddingsCohere -> n8n-nodes-base.noOp": 2,
+   "@n8n/n8n-nodes-langchain.vectorStoreMilvus -> n8n-nodes-base.noOp": 8,
+   "@n8n/n8n-nodes-langchain.lmOpenAi -> n8n-nodes-base.noOp": 7,
+   "@n8n/n8n-nodes-langchain.lmChatOllama -> n8n-nodes-base.noOp": 20,
+   "@n8n/n8n-nodes-langchain.code -> n8n-nodes-base.noOp": 10,
+   "@n8n/n8n-nodes-langchain.manualChatTrigger -> n8n-nodes-base.noOp": 9,
+   "@n8n/n8n-nodes-langchain.retrieverWorkflow -> n8n-nodes-base.noOp": 2,
+   "@n8n/n8n-nodes-langchain.textSplitterCharacterTextSplitter -> n8n-nodes-base.noOp": 1,
+   "@n8n/n8n-nodes-langchain.lmOllama -> n8n-nodes-base.noOp": 4,
+   "@n8n/n8n-nodes-langchain.embeddingsOllama -> n8n-nodes-base.noOp": 4,
+   "@n8n/n8n-nodes-langchain.lmOpenHuggingFaceInference -> n8n-nodes-base.noOp": 1,
+   "@n8n/n8n-nodes-langchain.memoryMongoDbChat -> n8n-nodes-base.noOp": 1,
+   "@n8n/n8n-nodes-langchain.vectorStoreMongoDBAtlas -> n8n-nodes-base.noOp": 2,
+   "@n8n/n8n-nodes-langchain.documentBinaryInputLoader -> n8n-nodes-base.noOp": 1
+  },
+  "workflow_signal_flips": {},
+  "examples": [
+   {
+    "path": "workflows/Manual/0236_Manual_GoogleSheets_Create_Scheduled.json",
+    "node": "Mark Row as processed",
+    "field": "sheets_match_column",
+    "old": "ID",
+    "new": "YOUR_CREDENTIAL_HERE"
+   },
+   {
+    "path": "workflows/Manual/1062_Manual_GoogleSheets_Update_Triggered.json",
+    "node": "Google Sheets2",
+    "field": "sheets_match_column",
+    "old": "ID",
+    "new": "YOUR_CREDENTIAL_HERE"
+   }
+  ]
+ },
+ "nodes_added_base_to_pinned_by_type": {
+  "n8n-nodes-base.stopAndError": 1066,
+  "n8n-nodes-base.manualTrigger": 154,
+  "n8n-nodes-base.if": 147,
+  "n8n-nodes-base.twitter": 5,
+  "n8n-nodes-base.wait": 3,
+  "n8n-nodes-base.googleSheets": 2
+ },
+ "base_to_pinned_renames_and_injections": {
+  "files_with_injected_nodes": 1124,
+  "injected_nodes_carrying_a_measured_field": 1,
+  "renamed_identical_type_and_parameters": 161,
+  "renamed_with_same_measured_fields": 161,
+  "injected_nodes": 1223,
+  "injected_by_type": {
+   "n8n-nodes-base.stopAndError": 1066,
+   "n8n-nodes-base.manualTrigger": 154,
+   "n8n-nodes-base.githubTrigger": 1,
+   "n8n-nodes-base.googleSheets": 1,
+   "n8n-nodes-base.filemaker": 1
+  }
+ },
+ "steps": {
+  "f293c236": {
+   "tally": {
+    "files_compared": 2057,
+    "duplicate_node_names": 484,
+    "nodes_in_both": 29366,
+    "nodes_added": 10853,
+    "nodes_removed": 158,
+    "added_nodes_carrying_a_measured_field": 2,
+    "removed_nodes_carrying_a_measured_field": 2,
+    "files_settings_changed": 1910,
+    "files_meta_changed": 1787,
+    "files_connections_changed": 1346,
+    "files_byte_identical": 147
+   },
+   "measured_field_differences": {
+    "sheets_match_column": 2
+   },
+   "type_changes_on_matched_nodes": {},
+   "workflow_signal_flips": {},
+   "examples": [
+    {
+     "path": "workflows/Manual/0236_Manual_GoogleSheets_Create_Scheduled.json",
+     "node": "Mark Row as processed",
+     "field": "sheets_match_column",
+     "old": "ID",
+     "new": "YOUR_CREDENTIAL_HERE"
+    },
+    {
+     "path": "workflows/Manual/1062_Manual_GoogleSheets_Update_Triggered.json",
+     "node": "Google Sheets2",
+     "field": "sheets_match_column",
+     "old": "ID",
+     "new": "YOUR_CREDENTIAL_HERE"
+    }
+   ],
+   "parent": "ae8cf6dc",
+   "nodes_added_by_type": {
+    "n8n-nodes-base.stopAndError": 8787,
+    "n8n-nodes-base.stickyNote": 1907,
+    "n8n-nodes-base.if": 146,
+    "n8n-nodes-base.twitter": 5,
+    "n8n-nodes-base.wait": 3,
+    "n8n-nodes-base.telegram": 2
+   }
+  },
+  "74bdcdca": {
+   "tally": {
+    "files_compared": 2057,
+    "duplicate_node_names": 484,
+    "nodes_in_both": 39721,
+    "nodes_added": 995,
+    "nodes_removed": 498,
+    "added_nodes_carrying_a_measured_field": 2,
+    "removed_nodes_carrying_a_measured_field": 1,
+    "files_byte_identical": 385,
+    "files_settings_changed": 123,
+    "files_meta_changed": 123,
+    "files_connections_changed": 16
+   },
+   "measured_field_differences": {},
+   "type_changes_on_matched_nodes": {},
+   "workflow_signal_flips": {},
+   "examples": [],
+   "parent": "f293c236",
+   "nodes_added_by_type": {
+    "n8n-nodes-base.stickyNote": 947,
+    "n8n-nodes-base.if": 23,
+    "n8n-nodes-base.stopAndError": 21,
+    "n8n-nodes-base.googleSheets": 2,
+    "n8n-nodes-base.filemaker": 2
+   }
+  },
+  "3c0a92c4": {
+   "tally": {
+    "files_compared": 2057,
+    "duplicate_node_names": 34020,
+    "nodes_in_both": 40716,
+    "nodes_added": 1886,
+    "nodes_removed": 0,
+    "added_nodes_carrying_a_measured_field": 0,
+    "removed_nodes_carrying_a_measured_field": 0,
+    "files_settings_changed": 2057,
+    "files_meta_changed": 2057,
+    "files_connections_changed": 2005
+   },
+   "measured_field_differences": {},
+   "type_changes_on_matched_nodes": {
+    "@n8n/n8n-nodes-langchain.lmChatOpenAi -> n8n-nodes-base.noOp": 633,
+    "@n8n/n8n-nodes-langchain.outputParserStructured -> n8n-nodes-base.noOp": 177,
+    "@n8n/n8n-nodes-langchain.chainLlm -> n8n-nodes-base.noOp": 257,
+    "@n8n/n8n-nodes-langchain.openAi -> n8n-nodes-base.noOp": 295,
+    "@n8n/n8n-nodes-langchain.toolWorkflow -> n8n-nodes-base.noOp": 180,
+    "@n8n/n8n-nodes-langchain.agent -> n8n-nodes-base.noOp": 463,
+    "@n8n/n8n-nodes-langchain.toolCode -> n8n-nodes-base.noOp": 17,
+    "@n8n/n8n-nodes-langchain.chatTrigger -> n8n-nodes-base.noOp": 181,
+    "@n8n/n8n-nodes-langchain.memoryBufferWindow -> n8n-nodes-base.noOp": 218,
+    "@n8n/n8n-nodes-langchain.lmChatAzureOpenAi -> n8n-nodes-base.noOp": 12,
+    "@n8n/n8n-nodes-langchain.toolCalculator -> n8n-nodes-base.noOp": 32,
+    "@n8n/n8n-nodes-langchain.memoryManager -> n8n-nodes-base.noOp": 20,
+    "@n8n/n8n-nodes-langchain.openAiAssistant -> n8n-nodes-base.noOp": 2,
+    "@n8n/n8n-nodes-langchain.lmChatGoogleGemini -> n8n-nodes-base.noOp": 195,
+    "@n8n/n8n-nodes-langchain.toolWikipedia -> n8n-nodes-base.noOp": 31,
+    "@n8n/n8n-nodes-langchain.outputParserAutofixing -> n8n-nodes-base.noOp": 29,
+    "@n8n/n8n-nodes-langchain.lmChatAnthropic -> n8n-nodes-base.noOp": 35,
+    "@n8n/n8n-nodes-langchain.toolHttpRequest -> n8n-nodes-base.noOp": 142,
+    "@n8n/n8n-nodes-langchain.toolSerpApi -> n8n-nodes-base.noOp": 12,
+    "@n8n/n8n-nodes-langchain.vectorStoreSupabase -> n8n-nodes-base.noOp": 30,
+    "@n8n/n8n-nodes-langchain.outputParserItemList -> n8n-nodes-base.noOp": 7,
+    "@n8n/n8n-nodes-langchain.embeddingsGoogleGemini -> n8n-nodes-base.noOp": 30,
+    "@n8n/n8n-nodes-langchain.vectorStoreInMemory -> n8n-nodes-base.noOp": 14,
+    "@n8n/n8n-nodes-langchain.toolVectorStore -> n8n-nodes-base.noOp": 29,
+    "@n8n/n8n-nodes-langchain.vectorStorePinecone -> n8n-nodes-base.noOp": 38,
+    "other type change": 28,
+    "@n8n/n8n-nodes-langchain.embeddingsOpenAi -> n8n-nodes-base.noOp": 130,
+    "@n8n/n8n-nodes-langchain.memoryPostgresChat -> n8n-nodes-base.noOp": 20,
+    "@n8n/n8n-nodes-langchain.mcpClientTool -> n8n-nodes-base.noOp": 13,
+    "@n8n/n8n-nodes-langchain.memoryRedisChat -> n8n-nodes-base.noOp": 7,
+    "@n8n/n8n-nodes-langchain.textClassifier -> n8n-nodes-base.noOp": 43,
+    "@n8n/n8n-nodes-langchain.vectorStorePGVector -> n8n-nodes-base.noOp": 8,
+    "@n8n/n8n-nodes-langchain.informationExtractor -> n8n-nodes-base.noOp": 91,
+    "@n8n/n8n-nodes-langchain.documentDefaultDataLoader -> n8n-nodes-base.noOp": 101,
+    "@n8n/n8n-nodes-langchain.chainRetrievalQa -> n8n-nodes-base.noOp": 23,
+    "@n8n/n8n-nodes-langchain.sentimentAnalysis -> n8n-nodes-base.noOp": 8,
+    "@n8n/n8n-nodes-langchain.chainSummarization -> n8n-nodes-base.noOp": 54,
+    "@n8n/n8n-nodes-langchain.toolWolframAlpha -> n8n-nodes-base.noOp": 1,
+    "@n8n/n8n-nodes-langchain.textSplitterRecursiveCharacterTextSplitter -> n8n-nodes-base.noOp": 76,
+    "@n8n/n8n-nodes-langchain.retrieverVectorStore -> n8n-nodes-base.noOp": 20,
+    "@n8n/n8n-nodes-langchain.vectorStoreQdrant -> n8n-nodes-base.noOp": 82,
+    "@n8n/n8n-nodes-langchain.lmChatGroq -> n8n-nodes-base.noOp": 14,
+    "@n8n/n8n-nodes-langchain.toolThink -> n8n-nodes-base.noOp": 5,
+    "@n8n/n8n-nodes-langchain.documentJsonInputLoader -> n8n-nodes-base.noOp": 1,
+    "@n8n/n8n-nodes-langchain.lmChatOpenRouter -> n8n-nodes-base.noOp": 30,
+    "@n8n/n8n-nodes-langchain.lmChatDeepSeek -> n8n-nodes-base.noOp": 4,
+    "@n8n/n8n-nodes-langchain.embeddingsMistralCloud -> n8n-nodes-base.noOp": 13,
+    "@n8n/n8n-nodes-langchain.mcpTrigger -> n8n-nodes-base.noOp": 20,
+    "@n8n/n8n-nodes-langchain.textSplitterTokenSplitter -> n8n-nodes-base.noOp": 30,
+    "@n8n/n8n-nodes-langchain.lmChatMistralCloud -> n8n-nodes-base.noOp": 14,
+    "@n8n/n8n-nodes-langchain.embeddingsCohere -> n8n-nodes-base.noOp": 2,
+    "@n8n/n8n-nodes-langchain.vectorStoreMilvus -> n8n-nodes-base.noOp": 8,
+    "@n8n/n8n-nodes-langchain.lmOpenAi -> n8n-nodes-base.noOp": 7,
+    "@n8n/n8n-nodes-langchain.lmChatOllama -> n8n-nodes-base.noOp": 20,
+    "@n8n/n8n-nodes-langchain.code -> n8n-nodes-base.noOp": 10,
+    "@n8n/n8n-nodes-langchain.manualChatTrigger -> n8n-nodes-base.noOp": 9,
+    "@n8n/n8n-nodes-langchain.retrieverWorkflow -> n8n-nodes-base.noOp": 2,
+    "@n8n/n8n-nodes-langchain.textSplitterCharacterTextSplitter -> n8n-nodes-base.noOp": 1,
+    "@n8n/n8n-nodes-langchain.lmOllama -> n8n-nodes-base.noOp": 4,
+    "@n8n/n8n-nodes-langchain.embeddingsOllama -> n8n-nodes-base.noOp": 4,
+    "@n8n/n8n-nodes-langchain.lmOpenHuggingFaceInference -> n8n-nodes-base.noOp": 1,
+    "@n8n/n8n-nodes-langchain.memoryMongoDbChat -> n8n-nodes-base.noOp": 1,
+    "@n8n/n8n-nodes-langchain.vectorStoreMongoDBAtlas -> n8n-nodes-base.noOp": 2,
+    "@n8n/n8n-nodes-langchain.documentBinaryInputLoader -> n8n-nodes-base.noOp": 1
+   },
+   "workflow_signal_flips": {},
+   "examples": [],
+   "parent": "baf2dfff",
+   "nodes_added_by_type": {
+    "n8n-nodes-base.stopAndError": 1113,
+    "n8n-nodes-base.stickyNote": 619,
+    "n8n-nodes-base.manualTrigger": 154
+   }
+  },
+  "5ffee225": {
+   "tally": {
+    "files_compared": 2057,
+    "duplicate_node_names": 34017,
+    "nodes_in_both": 30747,
+    "nodes_added": 0,
+    "nodes_removed": 11855,
+    "added_nodes_carrying_a_measured_field": 0,
+    "removed_nodes_carrying_a_measured_field": 0
+   },
+   "measured_field_differences": {},
+   "type_changes_on_matched_nodes": {},
+   "workflow_signal_flips": {},
+   "examples": [],
+   "parent": "03609dfc",
+   "nodes_added_by_type": {}
+  }
+ },
+ "published_pipeline": {
+  "pre_rewrite_base": {
+   "files": 2057,
+   "groups": 1974,
+   "retry_on_fail_true": 107,
+   "on_error_continue_error_output": 117,
+   "on_error_continue_regular_output": 100,
+   "continue_on_fail_true_legacy": 43,
+   "contains_error_trigger": 18,
+   "sheets_append_or_update": 53,
+   "no_error_handling_field_of_any_kind": 1670,
+   "no_retry_no_error_output_no_error_trigger": 1759,
+   "nodes_per_workflow_median": 11.0,
+   "nodes_per_workflow_max": 246
+  },
+  "pinned": {
+   "files": 2061,
+   "groups": 2030,
+   "retry_on_fail_true": 108,
+   "on_error_continue_error_output": 121,
+   "on_error_continue_regular_output": 100,
+   "continue_on_fail_true_legacy": 43,
+   "contains_error_trigger": 18,
+   "sheets_append_or_update": 53,
+   "no_error_handling_field_of_any_kind": 1721,
+   "no_retry_no_error_output_no_error_trigger": 1810,
+   "nodes_per_workflow_median": 12.0,
+   "nodes_per_workflow_max": 246
+  }
+ }
+}
